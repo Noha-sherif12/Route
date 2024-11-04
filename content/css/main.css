@@ -1,0 +1,193 @@
+
+.input-border-radius{
+    --bs-border-radius:0;
+}
+main{
+    background: linear-gradient(rgba(214, 46, 51, 0.6)
+    , rgba(214, 46, 51, 0.6)),
+    url('../images/events-heavenly-header.jpg');
+    background-size: 100% 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 660px;
+    color: white;
+}
+main .side-menu{
+    padding-top: 60px;
+    background-color: #111;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 250px;
+    left: -250px;
+    transition: 0.5s;
+    z-index: 1000;
+}
+
+.side-menu i.close-btn {
+    position: absolute;
+    background-color: #111;
+    top: 20px;
+    right: 25px; 
+    cursor: pointer;
+    font-size: 25px; 
+    
+}
+
+.side-menu ul{
+    padding-left: 0;
+}
+.side-menu ul li {
+    padding: 20px 8px 20px 32px;
+    font-size: 18px;
+    cursor: pointer;
+    font-size: 22px;
+}
+.side-menu ul li:hover{
+    color: rgb(78, 12, 12);
+}
+main section span{
+    font-size: 30px;
+    cursor: pointer;
+    color: white;
+    position: absolute;
+    left: 13px;
+    transition: 0.5s;
+}
+
+main h1{
+    margin-left: 50%;
+}
+
+main p{
+    margin-left: 50%;
+}
+
+
+ul{
+    list-style: none;
+}
+
+section h1{
+    /* text-align: center; */
+    font-size: 60px;
+    padding-top: 200px;
+}
+
+.singers-container{
+    margin: 100px 0;
+}
+section .singers{
+    width: 50%;
+
+}
+.singers h3{
+    background-color: rgba(214, 46, 51, 0.6);    
+    cursor: pointer;
+    color: white;
+    padding: 10px;
+    margin: 0;
+}
+
+.singers p{
+    padding: 10px;
+    background-color: #ccc;
+    margin: 0;
+    display: none;
+}
+
+section.counter{
+    background: linear-gradient(rgba(214, 46, 51, 0.6)
+    , rgba(214, 46, 51, 0.6)),
+    url('../images/invitation-2508607__340.jpg');
+    padding: 100px 0;
+}
+
+
+
+.timer {
+    padding: 50px;
+    border: 1px solid #FFF;
+    font-size: 30px;
+    color: white;
+    font-weight: 500;
+    text-align: center;
+}
+
+
+footer{
+    margin-top: 100px;
+}
+footer section{
+    padding: 100px 0;
+}
+footer .title{
+    font-size: 35px;
+    color: #444;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+footer .sub-title{
+    text-align: center;
+    color: #777;
+    font-weight: 300;
+}
+footer input{
+    margin-bottom: 20px;
+}
+footer textarea{
+    height: 200px;
+    resize: none;
+    margin-bottom: 20px;
+}
+footer form div span{
+    color: #D62E33;
+    font-size: 20px;
+}
+footer .contact-info{
+    text-align: center;
+    line-height: 26px;
+    color: #777;
+}
+footer .socila-media{
+    margin-top: 60px;
+}
+
+footer .info{
+    margin-top: 50px;
+}
+footer h6{
+    color: #444;
+    font-size: 18px;
+    font-weight: 900;
+}
+
+ button{
+    margin-top: 20px;
+    background-color: #D62E33;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+}
+.color-gray{
+    color: #777
+}
+.social-media i{
+    margin-right: 10px;
+    border: 1px solid #999;
+    width: 40px;
+    height: 40px;
+    line-height: 42px;
+    cursor: pointer;
+    text-align: center;
+}
+.info i{
+    margin-right: 20px;
+    color: #777;
+}
+.color-red{
+    color: #D62E33;
+}
+.mb-35{
+    margin-bottom: 35px;
+}
